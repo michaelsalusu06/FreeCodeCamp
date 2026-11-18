@@ -1,0 +1,207 @@
+/*
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text
+  {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+  #orange-text
+  {
+    color: orange;
+  }
+</style>
+<h1 id="orange-text" class="blue-text pink-text">Hello World!</h1>
+
+<h1 style="color: white;" id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+<style>
+  body 
+  {
+    background-color: #000000;
+  }
+</style>
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>
+
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: #0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
+
+<style>
+  .red-text {
+    color: rgb(255, 0, 0);
+  }
+  .orchid-text {
+    color: rgb(218, 112, 214);
+  }
+  .sienna-text {
+    color: rgb(160, 82, 45);
+  }
+  .blue-text {
+    color: rgb(0, 0, 255);
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="orchid-text">I am orchid!</h1>
+
+<h1 class="sienna-text">I am sienna!</h1>
+
+<h1 class="blue-text">I am blue!</h1>
+
+.penguin {
+
+     Only change code below this line 
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+
+ --penguin-skin: gray;
+
+background: var(--penguin-skin);
+
+background: var(--pengiun-skin, black);
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
+
+:root {
+     Only change code below this line 
+    --penguin-belly: pink;
+     Only change code above this line 
+  }
+
+  <style>
+  :root {
+    --penguin-skin: gray;
+    --penguin-belly: pink;
+    --penguin-beak: orange;
+  }
+
+  body {
+    background: var(--penguin-belly, #c6faf1);
+  }
+
+  .penguin {
+    
+    --penguin-belly: white;
+    
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  <style>
+  :root {
+    --penguin-size: 300px;
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+  }
+
+  @media (max-width: 350px) {
+    :root {
+      
+      --penguin-size: 200px;
+      --penguin-skin: black;
+     
+    }
+  }
+*/
